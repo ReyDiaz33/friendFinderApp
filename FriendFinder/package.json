@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ReyDiaz33/friendFinderApp/issues"
   },
-  "homepage": "https://github.com/ReyDiaz33/friendFinderApp#readme"
+  "homepage": "https://github.com/ReyDiaz33/friendFinderApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
 }
