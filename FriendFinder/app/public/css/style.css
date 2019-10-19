@@ -20,3 +20,9 @@
     overflow: hidden;
     width: 500px;
   }
+
+
+  #matchImg {
+      width: 400px;
+      height: 400px;
+  }
