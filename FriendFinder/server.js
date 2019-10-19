@@ -14,6 +14,8 @@ app.use(bodyparser.urlencoded({ extended: true}));
 app.use(bodyparser.text());
 app.use(bodyparser.json({ type: "application/vnd.api+json"}));
 
+express.static('public');
+
 // routes
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
